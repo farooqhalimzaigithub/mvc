@@ -10,5 +10,5 @@ router.post("/get-lov", NrspIbftController.getLov);
 router.post("/ibft-summary", NrspIbftController.ibftSummary);
 router.post("/send-ibft", NrspIbftController.sendIbft);
 router.post("/create-nrsp-account", NrspIbftController.createNrspAccount);
-
+router.post("/get-account-lov", AccountCreationController.getAccountLov);
 module.exports = router;
